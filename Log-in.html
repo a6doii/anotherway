@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link style="background-color: #cdcdcd00; border: 2px solid #ff0000;" rel="icon" href="logo.jpg" type="image/x-icon">
+    <link  href="login.css" rel="stylesheet" type="text/css">
+</head>
+<body  style="background-color: rgb(63, 52, 52); color: #ECECEA  #D9853B #74AFAD #558C89  " class="body">
+    <!-- <div class=" swapto">
+    </div> -->
+        
+    <div class="bord">
+        <form action="" class="Log-in-submit" onsubmit="check();">
+            <div class="form-log">
+                <div class="logo">
+                    <label for="logo">Another Way</label><br>
+                </div>
+                <div class="user-name">
+                    <label for="User-Name">User name</label><br>
+                    <input type="text" id="User-Name" placeholder="user name...">
+                </div>
+            <br>
+                <div class="password">
+                    <label for="Password">Password</label><br>
+                    <input type="password" id="Password" placeholder="password...">
+                </div>
+            <br>
+                <div class="buttons">
+                    <input type="submit" id="Submit">
+                    <p style="color:#004c63">Or</p>
+                    <a href="sign-up.html"><button id="Register">Register</button></a>
+                </div>
+    </form> 
+    <div class="footer-bord">
+    <footer>
+        <a href="#contact" class="Footer-links Contact" target="_blank">Contact</a>
+        <a href="Aboutus.html"  class="Footer-links" target="_blank">About us</a>
+    </footer>
+    </div>
+<script>
+    function check()
+    {
+var in1=document.getElementById("User-Name").value;
+var in2=document.getElementById("Password").value;
+if(in1===""||in2===""){
+    window.alert("please fill your name and your password");
+    return false;
+}
+return true;
+}
+</script>
+    
+</body>
+</html>

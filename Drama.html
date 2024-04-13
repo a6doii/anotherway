@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drama Books</title>
+    <link rel="stylesheet" href="../../login.css">
+  </head>
+  <body class="body">
+    
+    <div class="logo"><h1>Another Way</h1></div>
+    <nav class="nav">
+      <a href="../home-page/Home.html" class="home">Home</a>
+      <a href="../Top-Rated-page/TopRated.html" class="top-rated">Top Rated</a>
+      <a href="../../my-books.html" class="my-books">My Books</a>
+      <a href="../../Add-Book.html" class="add-book"> Add Book </a>
+      <a href="../../Log-in.html" class="log-in"> Log in</a>
+      <a href="../../Log-in.html" class="log-out">Log out</a>
+      <div class="search">
+        <label for="searchbutton"> Search</label>
+        <input type="text" id="searchbutton" placeholder="Enter book or author name">
+      </div>
+      <select id="pageLinks" onchange="window.location.href=this.value;">
+              <option value="#" selected disabled id="1">Categories</option>
+              <option value="../historical-page/Historical-Books.html">Historical</option>
+              <option value="../philosophical-pabge/Philosophical-Books.html">Philosophical </option>
+              <option value="../Romance-page/Romantic-Books.html">Romantic </option>
+              <option value="../Horro-page/Horror.html">Horror </option>
+              <option value="../Fantasy-page/Fantasy.html">Fantasy </option>
+              <option value="../Drama-page/Drama.html">Drama </option>
+              <option value="../Poetry-page/Poetry.html">Poetry </option>
+              <option value="../Myster-and-Crime-page/Mystery-and-Crime.html">Crime and Mystery Books</option>
+      </select>
+</nav>
+<main>
+  <div class="category Drama-books">
+   <!--the figure1-Drama-page -->
+   <div class="The-Tempest">
+    <figure id="The-Tempest" class="figure1-Drama-page">
+      <img
+        src="The-Tempest.jpeg"
+        width="250"
+        height="350"
+        alt="The-Tempest book"
+      />
+      <figcaption class="fig-caption">
+        <div class="descrieption The-Tempest" id="D-The-Tempest">
+          <p>
+            The Tempest is full of magic, shipwreck, and island intrigue.
+            Prospero, a powerful exiled duke, conjures a storm that throws
+            a ship carrying his enemies onto the island he now inhabits.
+            Through magical machinations and illusions, Prospero seeks
+            revenge, romance blossoms, and all sorts of fantastical events
+            unfold.
+          </p>
+        </div>
+      </figcaption>
+      <div class="author" id="William-Shakespeare">
+        <h4>William Shakespeare</h4>
+      </div>
+      <div class="button">
+        <p id="element1-Drama-page">Available</p>
+        <button id="borrow-button1-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 2 book-->
+  <div class="Little-Women">
+    <figure id="Little-Women" class="figure2-Drama-page">
+      <img src="Little-Women.jpeg" width="250"
+      height="350" alt="Little-Women book" />
+      <figcaption class="fig-caption">
+        <div class="descrieption Little-Women" id="D-Little-Women">
+          <p>
+            The novel explores themes of family, friendship, poverty,
+            sacrifice, and finding your place in the world. 
+          </p>
+        </div>
+      </figcaption>
+      <div class="author" id="Louisa-May-Alcott"><h4>Louisa May Alcott</h4></div>
+      <div class="button">
+        <p id="element2-Drama-page">Available</p>
+        <button id="borrow-button2-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 3  book-->
+  <div class="OTHELLO">
+    <figure id="OTHELLO" class="figure3-Drama-page">
+      <img
+      src="OTHELLO.jpeg"
+      width="250"
+      height="350"
+      alt="TOTHELLO Book"
+      />
+      <figcaption class="fig-caption">
+        <div class="descrieption OTHELLO" id="OTHELLO">
+          <p>
+            The play centers around Othello, a valiant Moorish general
+            serving the Venetian army.
+          </p>
+        </div>
+      </figcaption>
+      <div class="author" id="William-Shakespeare">
+        <h4>William Shakespeare</h4>
+      </div>
+      <div class="button">
+        <p id="element3-Drama-page">Available</p>
+        <button id="borrow-button3-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 4  book-->
+  <div class="MockingBrid">
+    <figure id="MockingBrid" class="figure4-Drama-page">
+      <img
+      src="MockingBrid.jpeg"
+      width="250"
+      height="350"
+      alt="MockingBrid book"
+      />
+      <figcaption class="fig-caption">
+        <div class="descrieption MockingBrid" id="MockingBrid">
+          <p>
+            The novel explores themes of racial injustice, prejudice,
+            courage, compassion, and the loss of innocence.
+          </p>
+        </div>
+      </figcaption>
+      <div class="author" id="Harper-Lee"><h4>Harper Lee</h4></div>
+      <div class="button">
+        <p id="element4-Drama-page">Available</p>
+        <button id="borrow-button4-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 5  book-->
+  <div class="Kite_runner">
+    <figure id="Kite_runner" class="figure5-Drama-page">
+      <img
+        src="Kite_runner.jpg"
+        width="250"
+        height="350"
+        alt="Kite_runner Book"
+      />
+      <figcaption class="fig-caption">
+      <div class="descrieption Kite_runner" id="Kite_runner">
+       <p> The Kite Runner is a powerful and dramatic story set against the
+        backdrop of Afghanistan's tumultuous history. </p>
+      </div>
+    </figcaption>
+      <div class="author" id="Khaled-Hosseini"><h4>Khaled Hosseini.</h4></div>
+      <div class="button">
+        <p id="element5-Drama-page">Available</p>
+        <button id="borrow-button5-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 6  book-->
+  <div class="Hamlet">
+    <figure id="Hamlet" class="figure6-Drama-page">
+      <img
+      src="Hamlet.jpeg"
+      width="250"
+      height="350"
+      alt="Hamlet Book"
+      />
+      <figcaption class="fig-caption">
+    
+      <div class="descrieption Hamlet" id="Hamlet"> 
+        <p>Hamlet's internal struggles and philosophical musings have
+          captivated audiences for centuries. The play continues to be
+          analyzed, interpreted, and performed around the world.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="William-Shakespeare"><h4>William Shakespeare</h4></div>
+      <div class="button">
+        <p id="element6-Drama-page">Available</p>
+        <button id="borrow-button6-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 7  book-->
+  <div class="Waiting-for-Godot">
+    <figure id="Waiting-for-Godot" class="figure7-Drama-page">
+      <img
+      src="Waiting-for-Godot.jpeg"
+      width="250"
+          height="350"
+          alt="Waiting-for-Godot Book"
+          />
+          
+          <figcaption class="fig-caption">
+      <div class="descrieption Waiting-for-Godot" id="Waiting-for-Godot">
+        <p>Vladimir and Estragon wait endlessly by a tree for the enigmatic
+          Godot. They fill the void with nonsensical routines and grapple
+          with the absurdity of their situation.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="Samuel-Beckett"><h4>Samuel Beckett.</h4></div>
+      <div class="button">
+        <p id="element7-Drama-page">Available</p>
+        <button id="borrow-button7-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 8  book-->
+  <div class="The-Great-Gatsby">
+    <figure id="The-Great-Gatsby" class="figure8-Drama-page">
+      <img
+      src="The-Great-Gatsby.jpeg"
+          width="250"
+          height="350"
+          alt="The-Great-Gatsby Book"
+        />
+        
+        <figcaption class="fig-caption">
+        <div class="descrieption The-Great-Gatsby" id="The-Great-Gatsby">
+        <p>In roaring twenties New York, Nick Carraway gets tangled in
+          Gatsby's obsessive quest. </p>
+      </div>
+    </figcaption>
+    <div class="author" id="F.-Scott-Fitzgerald"><h4>F. Scott Fitzgerald.</h4></div>
+      <div class="button">
+        <p id="element8-Drama-page">Available</p>
+        <button id="borrow-button8-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 9  book-->
+  <div class="Rebecca">
+    <figure id="Rebecca" class="figure9-Drama-page">
+      <img
+      src="Rebecca.jpeg"
+      width="250"
+      height="350"
+      alt="Rebecca Book"
+      />
+      <figcaption class="fig-caption">
+      
+      <div class="descrieption Rebecca" id="Rebecca">
+        <p>young unnamed woman who marries a wealthy widower.  At his grand estate, Manderley, she's overshadowed by the memory of his deceased first wife, the hauntingly beautiful Rebecca.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="Daphne-du-Maurier"><h4>Daphne du Maurier</h4></div>
+      <div class="button">
+        <p id="element9-Drama-page">Available</p>
+        <button id="borrow-button9-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 10  book-->
+  <div class="Romeo-and-juliet">
+    <figure id="Romeo-and-juliet" class="figure10-Drama-page">
+      <img
+      src="Romeo-and-juliet.jpeg"
+      width="250"
+      height="350"
+      alt="Romeo-and-juliet Book"
+      />
+      <figcaption class="fig-caption">
+      
+      <div class="descrieption Romeo-and-juliet" id="Romeo-and-juliet">
+        <p>In fair Verona, star-crossed lovers Romeo Montague and Juliet
+          Capulet defy their feuding families. Their whirlwind romance
+          blossoms into a secret marriage.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="William-Shakespeare"><h4>William Shakespeare</h4></div>
+      <div class="button">
+        <p id="element10-Drama-page">Available</p>
+        <button id="borrow-button10-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 11  book-->
+  <div class="AStreetcar-Named-Desire">
+    <figure id="AStreetcar-Named-Desire" class="figure11-Drama-page">
+      <img
+      src="AStreetcar-Named-Desire.jpeg"
+      width="250"
+      height="350"
+      alt="AStreetcar-Named-Desire Book"
+      />
+      <figcaption class="fig-caption">
+      <div class="descrieption AStreetcar-Named-Desire" id="AStreetcar-Named-Desire">
+        <p>Blanche DuBois, a fragile Southern belle, arrives in New Orleans
+          to seek refuge with her sister Stella and brutish brother-in-law
+          Stanley Kowalski.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="Tennessee-Williams"><h4>Tennessee Williams</h4></div>
+      <div class="button">
+        <p id="element11-Drama-page">Available</p>
+        <button id="borrow-button11-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!--the 12  book-->
+  <div class="DollsHouse">
+    <figure id="DollsHouse" class="figure12-Drama-page">
+      <img
+      src="ADollsHouse.jpg"
+      width="250"
+      height="350"
+      alt="DollsHouse Book"
+      />
+      <figcaption class="fig-caption">
+      
+      <div class="descrieption DollsHouse" id="DollsHouse">
+       <p> Written in the late 19th century, A Doll's House is a scathing
+        social commentary that explores themes of gender roles, societal
+        expectations, and female liberation.</p>
+      </div>
+    </figcaption>
+    <div class="author" id="Henrik-Ibsen"><h4>Henrik Ibsen</h4></div>
+      <div class="button">
+        <p id="element12-Drama-page">Available</p>
+        <button id="borrow-button12-Drama-page">Borrow</button>
+        <div class="Edit">
+      <a href="Edit.html"> <button> Edit</button></a>
+  </div>
+      </div>
+    </figure>
+  </div>
+  <!-- the class of all books -->
+</div>
+</main>
+<footer>
+<a href="#contact">Contact</a>
+<a href="Aboutus.html" target="_blank">About us</a>
+</footer>
+</body>
+</html>
