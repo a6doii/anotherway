@@ -23,7 +23,7 @@
 
 .body{
     background: linear-gradient(#558C89 , #ECECEA,#558C89 );
-    display: flexbox;
+    display: flex;
 }
 .nav{
     background-color: rgb(123, 150, 173);
@@ -107,8 +107,9 @@ color:rgb(0, 0, 0);
 }
 /*Home page */
 .home{
-   
+   display: flex;
     .home-img{
+        display: flex;
         margin-top: 10%;
         padding-right: auto;
         margin-left: 800px;
@@ -126,6 +127,7 @@ color:rgb(0, 0, 0);
         color: white
     }
     .home-img2{
+        display: flex;
         margin-left: 5%;
         margin-top: 15%;
         border: 2px solid rgb(255, 255, 255);
@@ -139,7 +141,8 @@ color:rgb(0, 0, 0);
         filter: blur(1);
         color: white
     }
-    .home0{  
+    .home0{
+        display: flex;
         margin-top: 10%;
         padding-right: 60px;
         margin-left: 90px;
@@ -156,6 +159,7 @@ color:rgb(0, 0, 0);
         color: white
     }
     .home1{
+        display: flex;
         color: white;
         padding-top: 10px;
         padding-right: 60px;
@@ -173,6 +177,7 @@ color:rgb(0, 0, 0);
 
         a{
             >button{
+                display: flex;
                 margin-right: 10px;
                 background-color: #7f72ceb9 ;
                 color: rgb(255, 255, 255);
@@ -183,6 +188,7 @@ color:rgb(0, 0, 0);
                 border: 3px solid rgb(255, 255, 255);
             }
             >button:hover{
+                display: flex;
                 transition: 0.25s;
                 background:  rgba(255, 255, 255, 0.829);
                 background-color:  rgba(255, 255, 255, 0.829);
@@ -195,6 +201,7 @@ color:rgb(0, 0, 0);
 }
 /*login form*/
 .bord{
+    display: flex;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 500px;
@@ -214,9 +221,11 @@ color:rgb(0, 0, 0);
 
 }
 .form-log{
+    display: flex;
     padding-top: 15px;
     padding-left: 90px;
 .logo>label{
+    display: flex;
     font-size: 35px;
     color: #502a09;
     font-family:cursive;
@@ -226,6 +235,7 @@ color:rgb(0, 0, 0);
 
 }
 .user-name>label{
+    display: flex;
     border: 1px solid black; 
     border-radius: 5px; 
     background-color:#74AFAD ;
@@ -235,6 +245,7 @@ color:rgb(0, 0, 0);
        padding-right: 1%;
 }
 .user-name>input{
+    display: flex;
     border-radius: 5px; 
     border: 1px solid rgb(99, 180, 180);
     margin-top: 7px; 
@@ -242,7 +253,9 @@ color:rgb(0, 0, 0);
 }
 }
 .form-log{
+    display: flex;
     .password>label{
+        display: flex;
     border: 1px solid black; 
     border-radius: 5px; 
     background-color:  #74AFAD  ;
@@ -253,6 +266,7 @@ color:rgb(0, 0, 0);
       margin-right: 7px;
 }
 .password>input{
+    display: flex;
     border-radius: 5px;
      border: 1px solid rgb(99, 180, 180);
       margin-top: 7px;
@@ -262,6 +276,7 @@ color:rgb(0, 0, 0);
 
 
 #Register,#Submit{
+    display: flex;
     padding: 2px;
     width: 68px;
     height: 20px;
@@ -277,6 +292,7 @@ color:rgb(0, 0, 0);
     color: rgb(132, 85, 85);
 }
 .Footer-links{
+    display: flex;
     border: 1px solid black;
     border-radius:10px;
     background-color: rgb(216, 170, 130);
@@ -293,16 +309,19 @@ color:rgb(0, 0, 0);
     padding: 1px;
 }
 .Contact{
+    display: flex;
 width: 4%;
 margin-left: 0px;
 }
 .footer{
+    display: flex;
     border: 1px solid white;
     background-color:  rgb(211, 192, 151);
     padding-bottom: 3px;
 
 }
 .button-log>button{
+    display: flex;
     border-radius: 5px;
     border: 2px solid rgb(255, 136, 0);
     margin-top: 7px;
@@ -310,6 +329,7 @@ margin-left: 0px;
      color:white;
 }
 .button-log>a>button{
+    display: flex;
      border-radius: 5px;
      border: 2px solid rgb(255, 136, 0);
      margin-top: 7px;
@@ -318,6 +338,7 @@ margin-left: 0px;
 }
 /*Add Book*/
 .adding-books{
+    display: flex;
     margin-top: 3%;
     margin-bottom: 1%;
     margin-left: 300px;
@@ -337,9 +358,11 @@ margin-left: 0px;
     filter: blur(1);
 }
 .adding-books{
+    display: flex;
     margin: auto;
     margin-top: 26px;
     .logo{
+        display: flex;
         font-size: 1.8vw;
         font-style: oblique; 
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -347,6 +370,7 @@ margin-left: 0px;
         padding-top: 10%;
     }
     form{
+        display: flex;
         margin: auto;
         padding-top: 20px;
         padding-left: 4%;
@@ -363,8 +387,10 @@ margin-left: 0px;
         filter: blur(1);
         
         .A-book-id{
+            display: flex;
             label
             {
+                display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
             background-color: #74AFAD;
@@ -376,6 +402,7 @@ margin-left: 0px;
             margin-bottom: 10px;
         }
             input{
+                display: flex;
                 border-radius: 5px;
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px;
@@ -389,7 +416,9 @@ margin-left: 0px;
 }
         }
         .A-book-name{
+            display: flex;
         label{
+            display: flex;
             border: 1px solid black;
             border-radius: 5px;
             background-color:  #74AFAD;
@@ -405,6 +434,7 @@ margin-left: 0px;
 }
 
             input{
+                display: flex;
                 border-radius: 5px;
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px;
@@ -418,7 +448,9 @@ margin-left: 0px;
                 }
         }
         .A-author{
+            display: flex;
             label{
+                display: flex;
                 border: 1px solid black;
                 border-radius: 5px;
                 background-color:  #74AFAD;
@@ -434,6 +466,7 @@ margin-left: 0px;
 }
     
                 input{
+                    display: flex;
                     border-radius: 5px; 
                     border: 1px solid rgb(99, 180, 180);
                     margin-top: 7px;
@@ -444,7 +477,9 @@ margin-left: 0px;
             }
 
         .A-book-category{
+            display: flex;
             label{
+                display: flex;
             border: 1px solid black;
             border-radius: 5px;
             background-color:  #74AFAD;
@@ -459,6 +494,7 @@ margin-left: 0px;
             -o-border-radius: 5px;
 }
             input{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px;
@@ -470,6 +506,7 @@ margin-left: 0px;
     }
     
     .des-img-Add{
+        display: flex;
         position: top ;
         margin: auto;
         margin-top: 10px;
@@ -489,6 +526,7 @@ margin-left: 0px;
         filter: blur(1);
         
             .A-book-description{
+                display: flex;
                 margin-top: 1%;
                 label{
                 border: 1px solid black; 
@@ -501,6 +539,7 @@ margin-left: 0px;
                 margin-right: 15%;
                 }
                 textarea{
+                    display: flex;
                     border-radius: 5px; 
                     width:103%;
                     border: 1px solid rgb(99, 180, 180);
@@ -509,7 +548,9 @@ margin-left: 0px;
                 }
             }
             .A-book-Image{
+                display: flex;
                 label{
+                    display: flex;
                 border: 1px solid black; 
                 border-radius: 5px; 
                 background-color:#74AFAD;
@@ -520,6 +561,7 @@ margin-left: 0px;
                 margin-right: 15%;
                 }
                 input{
+                    display: flex;
                     border-radius: 5px; 
                     border: 1px solid rgb(99, 180, 180);
                     margin-top: 7px; 
@@ -539,6 +581,7 @@ margin-left: 0px;
 }
 /*edit page*/
 .Edit-Book{
+    display: flex;
     margin: auto;
     margin-top:52px ;
     padding-top: 1px;
@@ -557,15 +600,18 @@ margin-left: 0px;
     -webkit-filter: blur(1);
 }
 .Edit-Book{
+    display: flex;
     position: relative;
     width: 50%;
     .logo{
+        display: flex;
         font-size: 200%; font-style: oblique; font-family: Georgia, 'Times New Roman', Times, serif;
         padding-left: 29%;
         padding-top: 10%;
     }
    
     form{
+        display: flex;
         margin-top: 3%;
         margin-bottom: 1%;
         margin-left: 120px;
@@ -585,7 +631,9 @@ margin-left: 0px;
         filter: blur(1);
         
         .E-book-name{
+            display: flex;
             label{
+                display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
              background-color: #74AFAD;
@@ -596,6 +644,7 @@ margin-left: 0px;
             margin-right: 15%;
             margin-bottom: 10px;}
             input{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px; 
@@ -604,7 +653,9 @@ margin-left: 0px;
             }
         }
         .E-author{
+            display: flex;
         label{
+            display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
              background-color:  #74AFAD;
@@ -615,6 +666,7 @@ margin-left: 0px;
             margin-right: 15%;}
 
             input{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px; 
@@ -623,7 +675,9 @@ margin-left: 0px;
             }
         }
         .E-book-category{
+            display: flex;
             label{
+                display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
             background-color:  #74AFAD;
@@ -634,6 +688,7 @@ margin-left: 0px;
             margin-right: 15%;
             }
             input{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px; 
@@ -647,6 +702,7 @@ margin-left: 0px;
 }
 
 .des-img{
+    display: flex;
     position: top ;
     margin-top: 3%;
     margin-bottom: 1%;
@@ -667,8 +723,10 @@ margin-left: 0px;
     background-size: 1000px;
     filter: blur(1);
         .E-book-description{
+            display: flex;
             margin-top: 1%;
             label{
+                display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
             background-color: #74AFAD;
@@ -679,6 +737,7 @@ margin-left: 0px;
             margin-right: 15%;
             }
             textarea{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px; 
@@ -686,7 +745,9 @@ margin-left: 0px;
             }
         }
         .E-book-Image{
+            display: flex;
             label{
+                display: flex;
             border: 1px solid black; 
             border-radius: 5px; 
             background-color:#74AFAD;
@@ -697,6 +758,7 @@ margin-left: 0px;
             margin-right: 15%;
             }
             input{
+                display: flex;
                 border-radius: 5px; 
                 border: 1px solid rgb(99, 180, 180);
                 margin-top: 7px; 
@@ -704,7 +766,9 @@ margin-left: 0px;
             }
         }
         .E-summit{
+            display: flex;
             input{
+                display: flex;
                 border-radius: 5px;
         border: 2px solid rgb(255, 136, 0);
         margin-top: 7px;
@@ -718,6 +782,7 @@ margin-left: 0px;
     width: 17.5vw;
 }
 .Sign-Up{
+    display: flex;
     margin: auto;
     margin-top:52px ;
     padding: 2px;
@@ -733,12 +798,15 @@ margin-left: 0px;
     filter: blur(1);
 }
 .Sign-Up label{
+    display: flex;
     font-size: 1.3vw;
 }
 .sign-up-form{
+    display: flex;
     padding-top: 10px;
     padding-left: 50px;
 .logo>label{
+    display: flex;
     font-size: 40px;
     color: #265f5d;
     font-family:cursive;
@@ -746,6 +814,7 @@ margin-left: 0px;
 
 } 
 .Sign-Up-user-name>label{
+    display: flex;
     border: 1px solid black; 
     border-radius: 5px; 
     background-color: #74AFAD;
@@ -757,6 +826,7 @@ margin-left: 0px;
     
 }
 .Sign-Up-user-name>input{
+    display: flex;
     border-radius: 5px; 
     border: 1px solid rgb(99, 180, 180);
     margin-top: 7px; 
@@ -764,6 +834,7 @@ margin-left: 0px;
 }
 
 .Sign-Up-password>label{
+    display: flex;
     border: 1px solid black; 
     border-radius: 5px; 
     background-color: #74AFAD;
@@ -774,12 +845,14 @@ margin-left: 0px;
     margin-right: 17%;
 }
 .Sign-Up-password>input{
+    display: flex;
     border-radius: 5px; 
     border: 1px solid rgb(99, 180, 180);
     margin-top: 7px; 
     background-color: rgb(226, 215, 190);
 }
 .Sign-Up-confirm-password>label{
+    display: flex;
     border: 1px solid black; 
     border-radius: 5px; 
     background-color: #74AFAD;
@@ -790,18 +863,21 @@ margin-left: 0px;
     
 }
 .Sign-Up-confirm-password>input{
+    display: flex;
     border-radius: 5px; 
     border: 1px solid rgb(99, 180, 180);
     margin-top: 7px; 
     background-color: rgb(226, 215, 190);
 }
 .signup-button>button{
+    display: flex;
     border-radius: 5px;
     border: 2px solid#74AFAD;
     margin-top: 7px;
     background-color: rgb(255, 242, 214);
 }
 .Sign-Up-radio>label{
+    display: flex;
     background-color:rgb(107, 137, 163) ;
     color: black;
     text-decoration:none;
@@ -812,6 +888,7 @@ margin-left: 0px;
     
 }
 .Sign-Up-radio>label:hover{
+    display: flex;
     transition: 0.25s;
     background:  rgba(255, 255, 255, 0.829);
     background-color:  rgba(255, 255, 255, 0.829);
@@ -821,7 +898,9 @@ margin-left: 0px;
 
 /*my book list message*/
 main{
+    display: flex;
     .mybooks-message{
+        display: flex;
         border: 2px solid rgb(255, 255, 255);
         width:70%;
         height: 65%;
@@ -836,8 +915,11 @@ main{
     display: grid; width: 90%; margin: auto; grid-template-columns: repeat(4,1fr); grid-gap: 20px;
 }
 .category{
+     display: flex;
     .button{
+        margin: auto;
       >button{
+          margin: auto;
         background-color: #D9853B ;
         color: black;
         text-decoration:none;
@@ -847,6 +929,7 @@ main{
         border: 3px red;
     }
     .Edit>a>button{
+        margin: auto;
         background-color: #D9853B ;
         color: black;
         text-decoration:none;
@@ -872,6 +955,7 @@ main{
     }
 }
 .category>div{
+     display: flex;
     width: 400px;
     aspect-ratio: 1 / 0.7;
     border-radius: 8px;
