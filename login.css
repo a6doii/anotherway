@@ -23,6 +23,7 @@
 
 .body{
     background: linear-gradient(#558C89 , #ECECEA,#558C89 );
+    display: flexbox;
 }
 .nav{
     background-color: rgb(123, 150, 173);
